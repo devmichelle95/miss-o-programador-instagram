@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.container-images{
+  position: relative;
+}
+.img-mobile {
+  width: 450px;
+  margin-top: 20px;
+}
+.insta{
+  height: 520px;
+  position: absolute;
+  top:47.75px;
+  left: 153px;
+  transition: opacity 2s ease-in-out;
+}
+.logo {
+  width: 150px;
+  margin-top: 20px;
+  padding: 10px 0px;
+}
+.container-itens {
+  display: flex;
+  flex-direction: column  ;
+  width: 350px;
+}
+.container-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: 0px 0px 10px;
+  padding: 10px 0px;
+  height: 350px;
+  border: 1px solid #dbdbdb;
+  background-color: #ffffff;
+}
+input {
+  padding: 9px 0 7px 8px;
+  width: 200px;
+  font-size: 10px;
+  background-color: #f2f0f0;
+  border: 1px solid #dbdbdb;
+  border-radius: 2px;
+}
+
+button {
+  width: 200px;
+  padding: 9px 0 7px 8px;
+  margin: 8px 40px;
+  cursor: pointer;
+  background-color: #68abfd;
+  border: 0.2px;
+  border-radius: 5px;
+ color: #ffffff;
+ font-weight: bold;
+
+}
+button:hover{
+  background-color: #85bbfe;
+}
+button:active{
+  background-color: #a0c8f9;
+}
+.or{
+  font-weight: bolder;
+  color: #646060;
+}
+p{
+    font-size: 10px;
+}
+a {
+    font-size: 10px;
+  cursor: pointer;
+}
+a:active{
+  text-decoration-line: underline;
+}
+.face-div{
+  display: flex;
+  gap: 10px;
+}
+.face-logo{
+  width: 12px;
+}
+.Facebook{
+font-size: 12px;
+    font-weight: bold;
+    color:#352985
+}
+.bottom{display: flex;
+  justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin: 0px 0px 10px;
+    padding: 10px 0px;
+    border: 1px solid #dbdbdb;
+    background-color: #ffffff;
+}
+
+.Reset-Password{
+font-size: 9px;
+color:#352985
+}
+
+.Sign-in{
+  font-weight: bold;
+  color: #5098ef;
+}
+.download{
+  display: flex;
+  justify-content: center;
+    align-items: center;
+    margin: 0px 0px 10px;
+    border:none;
+    background-color: #ffffff;
+}
+.store{
+  width: 120px;
+}

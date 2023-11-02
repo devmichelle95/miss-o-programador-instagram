@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title></title>
+  </head>
+  <body>
+    <div class="container-images">
+      <img src="./assets/Mobile.png" class="img-mobile" />
+      <img src="./assets/photo front.png" class="insta" />
+      <img src="./assets/photo back.png" class="insta" id="change-image" />
+    </div>
+    <div class="container-itens">
+      <div class="container-form">
+        <img class="logo" src="./assets/instagram logo.png" />
+        <input
+          class="login"
+          placeholder="Telefone, nome de usuário ou e-mail"
+        />
+        <input type="password" class="senha" placeholder="Senha" />
+        <button>Entrar</button>
+        <p class="or">--------------------- OU ---------------------</p>
+        <div class="face-div">
+          <img class="face-logo" src="./assets/Facebook.png" />
+          <a class="Facebook">Entrar com Facebook</a>
+        </div>
+        <a class="Reset-Password">Esqueceu a senha</a>
+      </div>
+      <div class="bottom">
+        <p>Não tem conta?</p>
+        <a class="Sign-in">Cadastre-se</a>
+      </div>
+      <div class="download">
+        <img class="store" src="./assets/Google.png" />
+
+        <img class="store" src="./assets/Apple.png" />
+      </div>
+    </div>
+  </body>
+  <script>
+    let img = document.getElementById("change-image");
+
+    function changeImage() {
+      if (img.style.opacity == 0) {
+        img.style.opacity = 1;
+      } else {
+        img.style.opacity = 0;
+      }
+    }
+    setInterval(function () {
+      changeImage();
+    }, 3000);
+  </script>
+</html>
